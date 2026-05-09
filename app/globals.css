@@ -88,7 +88,7 @@ nav {
   backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(209, 178, 35, 0.25);
 }
-.nav-logo img { height: 34px; width: auto; display: block; }
+.nav-logo img { height: 44px; width: auto; display: block; }
 .nav-links { display: flex; gap: 32px; align-items: center; }
 .nav-links a {
   font-size: 0.78rem;

@@ -3,10 +3,11 @@ import Image from "next/image";
 export default function Nav() {
   return (
     <nav>
-      <a href="#top" className="nav-logo">
-        <Image src="/assets/RTS-hor-white.png" alt="Roadmap to Success" width={160} height={34} />
+      <a href="https://roadmaptosuccess.ai" className="nav-logo">
+        <Image src="/assets/RTS-hor-white.png" alt="Roadmap to Success" width={210} height={44} />
       </a>
       <div className="nav-links">
+        <a href="https://roadmaptosuccess.ai">Home</a>
         <a href="#opener">The Opportunity</a>
         <a href="#journey">The Journey</a>
         <a href="#partnership">Partnership</a>
