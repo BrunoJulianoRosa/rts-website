@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Netlify
+.netlify/
+
+# env files
+.env*
+
+# misc
+.DS_Store
