@@ -13,6 +13,7 @@ import HowStart from "@/components/HowStart";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import RevealObserver from "@/components/RevealObserver";
+import CtaStrip from "@/components/CtaStrip";
 
 export default function Home() {
   return (
@@ -23,11 +24,23 @@ export default function Home() {
       <Opener />
       <Sherpa />
       <ValuePillars />
+      <CtaStrip
+        text="Sounds like a fit? Let's find out in 60 minutes."
+        label="Schedule a Discovery Session"
+      />
       <Members />
       <Journey />
+      <CtaStrip
+        text="Ready to launch your first cohort? We'll build it together."
+        label="Book a Session"
+      />
       <Cohorts />
       <Partnership />
       <Impact />
+      <CtaStrip
+        text="Your members deserve a structured path to the summit."
+        label="Let's Talk"
+      />
       <Testimonial />
       <HowStart />
       <FinalCTA />
